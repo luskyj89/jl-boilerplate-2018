@@ -15,7 +15,7 @@ gulp.task('styles', function () {
 			includePaths: [
 			],
 			outputStyle: 'nested',
-			errLogToConsole: true
+			errLogToConsole: false
 		}))
         .pipe(autoprefixer({
             browsers: ['last 2 versions']

@@ -48,6 +48,10 @@ textarea {
     resize: vertical;
 }
 
+sup {
+    line-height: 0;
+}
+
 .browsehappy {
     margin: 0.2em 0;
     background: #ccc;
@@ -111,4 +115,24 @@ textarea {
 
 .clearfix {
     *zoom: 1;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 30px 13px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: $dark-gray;
+    text-decoration: none;
+    transition: all .3s ease-out;
+
+    &:hover {
+        color: $dark-gray;
+        background-color: $color-secondary;
+    }
+
+    &:active {
+        top: 2px;
+    }
 }

@@ -1,2 +1,2 @@
-_tools/node_modules/*
+__tools/node_modules/*
 .DS_Store

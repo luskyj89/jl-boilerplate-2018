@@ -1,9 +1,9 @@
 {
   "name": "jl-boilerplate",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "",
-  "main": "../js/app.min.js",
-  "dependencies": {
+  "main": "../_prod/js/app.min.js",
+  "devDependencies": {
     "gulp": "*",
     "gulp-autoprefixer": "*",
     "gulp-concat": "*",
@@ -11,9 +11,9 @@
     "gulp-notify": "*",
     "gulp-rename": "*",
     "gulp-sass": "*",
-    "gulp-uglify": "*"
+    "gulp-uglify": "*",
+    "gulp-plumber": "^1.2.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
